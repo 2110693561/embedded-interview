@@ -1,0 +1,9 @@
+# 原始抓取产物（11MB+，无需部署）
+_raw/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+
+# 临时脚本
+*.cjs.tmp

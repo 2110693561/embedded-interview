@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>嵌入式八股文知识库</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/v2.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <h1>📚 嵌入式八股文知识库</h1>
+    <div class="sub">17 篇 · 来源 wdxzf.github.io · V2</div>
+
+    <input class="search" id="search" type="search"
+           placeholder="🔍 全文搜索（标题 + 内容）…" autocomplete="off">
+    <div class="search-results" id="searchResults" hidden></div>
+
+    <div class="overall-progress" id="overallProgress" title="所有题目掌握进度（●已掌握 + ★熟练）">
+      <div class="op-row"><span>📊 学习进度</span><span id="opNum">0 / 0</span></div>
+      <div class="op-bar"><div class="op-fill" id="opFill" style="width:0%"></div></div>
+    </div>
+
+    <div class="quick-links">
+      <button class="btn" id="favBtn">⭐ 收藏本</button>
+      <button class="btn" id="wrongBtn">❌ 错题本</button>
+    </div>
+
+    <ul class="nav" id="nav"></ul>
+  </aside>
+
+  <main class="main">
+    <div class="toolbar">
+      <div><button class="btn menu-btn" id="menuBtn" title="收起/展开左侧文章列表">📚 文章</button><span id="crumb"></span></div>
+      <div>
+        <button class="btn" id="tocBtn" title="收起/展开右侧目录">📑 目录</button>
+        <button class="btn" id="quizBtn" title="随机抽题模拟面试">🎯 随机面试</button>
+        <button class="btn" id="themeBtn">🌙 深色</button>
+        <button class="btn" id="topBtn">⬆ 顶部</button>
+      </div>
+    </div>
+    <div class="article-meta" id="meta"></div>
+    <div class="markdown-body article-body wiki-article" id="content"></div>
+    <div class="pager">
+      <button class="btn" id="prevBtn">← 上一篇</button>
+      <button class="btn" id="nextBtn">下一篇 →</button>
+    </div>
+  </main>
+
+  <aside class="toc-aside" id="tocAside">
+    <div class="toc-title">📑 文章目录</div>
+    <ul class="toc-list" id="tocList"></ul>
+  </aside>
+</div>
+
+<button class="toc-fab" id="tocFab" title="文章目录">☰</button>
+
+<!-- 随机面试浮层 -->
+<div class="quiz-overlay" id="quizOverlay" hidden>
+  <div class="quiz-panel">
+    <div class="quiz-head">
+      <b>🎯 随机面试</b>
+      <select id="quizScope" class="quiz-scope"></select>
+      <button class="btn" id="quizClose">✕ 关闭</button>
+    </div>
+    <div class="quiz-q" id="quizQ">正在构建题目索引…</div>
+    <div class="quiz-a markdown-body wiki-article" id="quizA" hidden></div>
+    <div class="quiz-actions">
+      <button class="btn quiz-answer" id="quizAnswer" disabled>👀 显示答案</button>
+      <button class="btn" id="quizNext" disabled>🎲 下一题</button>
+      <button class="btn" id="quizOpen" disabled>📖 在文章中查看 ↗</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/search.js" defer></script>
+<script src="js/copy.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>

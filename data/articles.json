@@ -1,0 +1,121 @@
+[
+  {
+    "id": "index",
+    "num": 0,
+    "title": "嵌入式面试题库·总索引",
+    "file": "00-index.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/00_%E6%80%BB%E7%B4%A2%E5%BC%95"
+  },
+  {
+    "id": "c",
+    "num": 1,
+    "title": "C 语言基础面试题精选（嵌入式方向）",
+    "file": "01-c.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/01_c%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "cpp",
+    "num": 2,
+    "title": "C++ 基础面试题（嵌入式方向）",
+    "file": "02-cpp.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/02_c%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "mcu",
+    "num": 3,
+    "title": "单片机原理基础面试题精选",
+    "file": "03-mcu.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/03_%E5%8D%95%E7%89%87%E6%9C%BA%E5%8E%9F%E7%90%86%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "arm",
+    "num": 4,
+    "title": "ARM体系结构基础面试题",
+    "file": "04-arm.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/04_arm%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "os",
+    "num": 5,
+    "title": "操作系统原理面试题",
+    "file": "05-os.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/05_%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "linux",
+    "num": 6,
+    "title": "Linux 应用开发基础面试题（Q1~Q15）",
+    "file": "06-linux.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/06_linux%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "network",
+    "num": 7,
+    "title": "计算机网络面试题",
+    "file": "07-network.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/07_%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "driver",
+    "num": 8,
+    "title": "Linux 驱动开发基础面试题",
+    "file": "08-driver.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/08_linux%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "freertos",
+    "num": 9,
+    "title": "FreeRTOS 开发基础面试题",
+    "file": "09-freertos.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/09_freertos%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "protocol",
+    "num": 10,
+    "title": "低速通信协议基础面试题",
+    "file": "10-protocol.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/10_%E4%BD%8E%E9%80%9F%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "ds",
+    "num": 11,
+    "title": "数据结构基础面试题",
+    "file": "11-ds.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/11_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "hardware",
+    "num": 12,
+    "title": "嵌入式硬件基础面试题",
+    "file": "12-hardware.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/12_%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%A1%AC%E4%BB%B6%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "tools",
+    "num": 13,
+    "title": "嵌入式开发工具与效率指南面试题",
+    "file": "13-tools.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/13_%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%95%88%E7%8E%87%E6%8C%87%E5%8D%97%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "interview",
+    "num": 14,
+    "title": "面试技巧与心态面试题",
+    "file": "14-interview.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/14_%E9%9D%A2%E8%AF%95%E6%8A%80%E5%B7%A7%E4%B8%8E%E5%BF%83%E6%80%81%E9%9D%A2%E8%AF%95%E9%A2%98"
+  },
+  {
+    "id": "resume",
+    "num": 15,
+    "title": "嵌入式校招简历编写指导",
+    "file": "15-resume.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/15_%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%A0%A1%E6%8B%9B%E7%AE%80%E5%8E%86%E7%BC%96%E5%86%99%E6%8C%87%E5%AF%BC"
+  },
+  {
+    "id": "company",
+    "num": 16,
+    "title": "🏢 大厂嵌入式面经真题汇总",
+    "file": "16-company.html",
+    "source": "https://wdxzf.github.io/interview/嵌入式八股文/16_%E5%A4%A7%E5%8E%82%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%9D%A2%E7%BB%8F%E7%9C%9F%E9%A2%98%E6%B1%87%E6%80%BB"
+  }
+]
